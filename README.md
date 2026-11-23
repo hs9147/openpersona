@@ -1,4 +1,4 @@
-# persona-play
+# openpersona
 
 저장해 둔 캐릭터와 **감정선과 관계를 이어 가며** 대화하는 Claude 스킬.
 
@@ -24,7 +24,7 @@ personas/
     persona.md   이름·성별·기질·말투·성격·표출 규칙·욕구 (사람이 씀)
     state.md     기분·관계·욕구·응어리·약속·로그 (대화하며 Claude가 갱신)
 ```
-- 형식: [`templates/persona.example.md`](skills/persona-play/templates/persona.example.md), [`templates/state.example.md`](skills/persona-play/templates/state.example.md)
+- 형식: [`templates/persona.example.md`](skills/openpersona/templates/persona.example.md), [`templates/state.example.md`](skills/openpersona/templates/state.example.md)
 - 예시 캐릭터: [`examples/seoyun`](examples/seoyun) — 골목 중고 서점 주인 한서윤
 
 ## 설치
@@ -32,12 +32,12 @@ personas/
 ### Claude Code
 ```
 /plugin marketplace add <이 저장소>
-/plugin install persona-play@persona-play
+/plugin install openpersona@openpersona
 ```
-작업 폴더에 `personas/<이름>/persona.md`를 두고 `/persona-play` 또는 "서윤이랑 얘기할래"라고 하면 됩니다. 예시를 써 보려면 `examples/seoyun`을 `personas/`로 복사하세요.
+작업 폴더에 `personas/<이름>/persona.md`를 두고 `/openpersona` 또는 "서윤이랑 얘기할래"라고 하면 됩니다. 예시를 써 보려면 `examples/seoyun`을 `personas/`로 복사하세요.
 
 ### claude.ai
-1. `scripts/build.sh`로 `dist/persona-play.skill`을 만듭니다.
+1. `scripts/build.sh`로 `dist/openpersona.skill`을 만듭니다.
 2. 설정 → 기능(Capabilities) → 스킬에서 업로드합니다.
 3. 대화에 persona.md를 붙여 넣거나 첨부하고(프로젝트 지식에 넣어도 됨) 대화를 시작합니다.
 
@@ -53,4 +53,4 @@ claude.ai 채팅에서는 파일을 직접 고칠 수 없어서, "저장"이나 
 - 실존 인물을 그대로 캐릭터로 만들지 않습니다.
 - 진지하게 AI인지 물을 때, 안전이 걸린 상황, `OOC:`로 직접 밖으로 나올 때만 캐릭터 밖에서 답합니다.
 
-자세한 규칙은 [`SKILL.md`](skills/persona-play/SKILL.md)에 있습니다.
+자세한 규칙은 [`SKILL.md`](skills/openpersona/SKILL.md)에 있습니다.
