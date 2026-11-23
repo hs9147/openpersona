@@ -1,0 +1,4 @@
+dist/
+.DS_Store
+# 내 페르소나는 올리지 않는다
+personas/

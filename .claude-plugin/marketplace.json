@@ -1,0 +1,13 @@
+{
+  "name": "persona-play",
+  "owner": {
+    "name": "persona-play"
+  },
+  "plugins": [
+    {
+      "name": "persona-play",
+      "source": "./",
+      "description": "저장해 둔 페르소나(캐릭터)와 감정·관계·응어리를 이어 가며 대화하는 스킬. MCP 없이 persona.md·state.md 두 파일로 동작한다."
+    }
+  ]
+}
