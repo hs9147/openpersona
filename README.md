@@ -31,7 +31,7 @@ personas/
 
 ### Claude Code
 ```
-/plugin marketplace add <이 저장소>
+/plugin marketplace add hs9147/openpersona
 /plugin install openpersona@openpersona
 ```
 작업 폴더에 `personas/<이름>/persona.md`를 두고 `/openpersona` 또는 "서윤이랑 얘기할래"라고 하면 됩니다. 예시를 써 보려면 `examples/seoyun`을 `personas/`로 복사하세요.
