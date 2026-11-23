@@ -53,4 +53,4 @@ claude.ai 채팅에서는 파일을 직접 고칠 수 없어서, "저장"이나 
 - 실존 인물을 그대로 캐릭터로 만들지 않습니다.
 - 진지하게 AI인지 물을 때, 안전이 걸린 상황, `OOC:`로 직접 밖으로 나올 때만 캐릭터 밖에서 답합니다.
 
-자세한 규칙은 [`SKILL.md`](skills/openpersona/SKILL.md)에 있습니다.
+자세한 규칙은 [`SKILL.md`](skills/openpersona/SKILL.md)에, 모델의 이론적 근거와 설계로 정한 값은 [`docs/references.md`](docs/references.md)에 있습니다.
